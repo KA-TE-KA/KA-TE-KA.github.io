@@ -1,5 +1,5 @@
 body {
-	font-family: 'Rajdhani', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 
 	margin: 0;
 	box-sizing: border-box;
@@ -11,6 +11,8 @@ h1 {
 	margin: 0 0 15px;
 
 	text-align: center;
+	font-weight: 600;
+	text-shadow: 1.5px 2px 0 #10375c55;
 }
 
 div {
@@ -28,6 +30,10 @@ div {
 p {
 	font-size: 24px;
 	width: 100%;
+	font-weight: 200;
+	letter-spacing: normal;
+	line-height: 1.4;
+	text-align: justify;
 }
 
 img {
@@ -37,6 +43,27 @@ img {
 
 a {
 	text-decoration: none;
-	margin: 30px 0;
-	display: block;
+	margin: 20px 0 0;
+	display: inline-block;
+	
+	font-size: 22px;
+	font-weight: 300;
+}
+
+a:link {
+	color: #10375c;
+}
+
+a:visited {
+	color: #10375c;
+}
+
+a:active {
+	color: #844685;
+}
+
+@media (hover: hover) {
+	a:hover {
+		text-decoration: underline;
+	}
 }
